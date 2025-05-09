@@ -46,7 +46,7 @@ def classify_email(email):
     return predicted_label
 
 if __name__ == "__main__":
-    sample_email = input("Enter a sample email: I want to know if it is spam or not: ")
+    sample_email = input("Enter a sample email: ")
     # Classify the sample email
     result = classify_email(sample_email)
     print(f"The email is classified as: {result}")
