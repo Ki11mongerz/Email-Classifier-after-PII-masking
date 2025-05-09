@@ -49,12 +49,19 @@ View the classification result. The script will display the predicted category o
 Email-Masking-and-Classification/
 │
 ├── test_masking.py          # Script to test email masking functionality
+
 ├── check_sample_email.py    # Script to classify a sample email
+
 ├── utils.py                 # Utility functions, including mask_pii
+
 ├── emails.csv               # Label mappings for classification
+
 ├── requirements.txt         # List of dependencies
+
 ├── README.md                # Project documentation
+
 └── email_classifier_bert/   # Directory for the trained model (not included, download separately)
+
 Notes
 Ensure the emails.csv file is present in the project directory. This file is used to load label encodings for classification.
 The fine-tuned BERT model should be downloaded and saved in the email_classifier_bert directory.
